@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <form action="#" method="#">
+          <!-- TEXT INPUT with LABEL -->
+          <label for="first-name">First Name: </label>
+          <input type="text" name="first_name" id="first-name" required>
+          <!-- required -->
+          <br>
+          <label for="last-name">Last Name: </label>
+          <input type="text" name="last_name" id="last-name">
+          <br>
+          <!-- SIZE -->
+          <label for="mi">MI</label>
+          <input type="text" name="mi" id="mi" size="10">
+          <br>
+          <!-- PASSWORD -->
+          <!-- Placeholder -->
+          <label for="password">Password: </label>
+          <input type="password" name="password" id="password" placeholder="Enter password...">
+          <!-- NUMBER INPUT -->
+          <!-- Min = minimum and Max = Maximum-->
+          <br>
+          <label for="guest">How many guest we have?:</label>
+          <input type="number" name="guest" id="guest" min="1" max="12">
+          <!-- DATE -->
+          <br>
+          <label for="b-day">Birthday: </label>
+          <input type="date" name="b-day" id="b-day">
+          <!-- EMAIL -->
+          <br>
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" placeholder="Enter email...">
+          <!-- COMMENTS -->
+          <br>
+          <label for="comments">Comment: </label>
+          <br>
+          <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Please comment here..."></textarea>
+          <!-- RADIO BUTTON -->
+          <p>Please select your favorite food: </p>
+          <label for="kfc">KFC</label>
+          <input type="radio" name="food" id="kfc" value="k">
+          
+          <label for="Mcdonalds">McDonalds</label>
+          <input type="radio" name="food" id="Mcdonalds" value="Mcdonalds">
+          
+          <label for="burger-king">Burger King</label>
+          <input type="radio" name="food" id="burger-king" value="burger-king">
+          <!-- CHECKBOX -->
+          <p>What's your favorite candy?</p>
+          <label for="lolipop">Lolipop</label>
+          <input type="checkbox" name="candy" id="lolipop" value="lolipop">
+
+          <label for="gumball">Gumball</label>
+          <input type="checkbox" name="candy" id="gumball" value="gumball">
+          
+          <label for="gummy-worms">Gummy-Worms</label>
+          <input type="checkbox" name="candy" id="gummy-worms" value="gummy-worms">
+          <!-- DROPDOWN LIST -->
+          <br>
+          <label for="device">What type of device?</label>
+          <select name="device" id="device">
+            <option value="android">Android</option>
+            <option value="macbook">Macbook</option>
+            <option value="iphone">iPhone</option>
+          </select>
+          <!-- MULTIPLE LIST -->
+          <br>
+          <label for="device">What type of device?</label>
+          <select name="device" id="device" multiple>
+            <option value="android">Android</option>
+            <option value="macbook">Macbook</option>
+            <option value="iphone">iPhone</option>
+          </select>
+          <!-- FILE IN PUT BOX -->
+          <br>
+          <input type="file" name="file">
+          <!-- BUTTON -->
+          <br>
+          <input type="button" value="Push the button!">
+
+          <input type="submit" value="PRESSSS!">
+
+          <button type="submit">Click Me!</button>
+    </form>
+</body>
+</html>
+

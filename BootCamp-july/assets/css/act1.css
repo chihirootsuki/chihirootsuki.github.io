@@ -1,0 +1,32 @@
+table{
+    width: 1000px;
+    height: 350px;
+    border: 3px solid rgb(2, 5, 56);
+    border-collapse: separate;
+}
+tr.table-head{
+    background-color: rgb(35, 133, 224);
+    color: white;
+}
+tr.even{
+    background-color: rgb(164, 200, 230);
+
+}
+tr.odd{
+    background-color: rgb(187, 236, 220);
+}
+th{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid white;
+}
+td{
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid white;
+}
+.image{
+    background: url(../images/icon.jpg) no-repeat center center;
+    background-size: 50px 50px;
+}

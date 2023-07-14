@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+}
+
+p{
+    color: crimson;
+}
+
+.div1{
+    background-color: teal;
+    margin: 50px;
+}
+.div2{
+    background-color: goldenrod;
+    color: white;
+    padding: 10px 20px 30px 40px;
+}
+.div3{
+    background-color: aquamarine;
+    margin: 20px;
+    overflow: scroll;
+    /* overflow: hidden; */
+}
+.div3 .overflow{
+    color: indigo;
+}

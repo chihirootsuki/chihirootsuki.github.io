@@ -1,0 +1,27 @@
+table{
+    width: 50%;
+    border: 2px solid violet;
+    empty-cells: hide;
+    /* border-collapse: collapse; */
+    border-collapse: separate;
+    border-spacing: 10px 20px;
+}
+
+tr.odd{
+    background-color: papayawhip;
+    color:pink;
+}
+
+tr.even{
+    background-color: gray;
+    color:navy;
+}
+td{
+    font-size: 50px;
+    text-align: center;
+    border: 1px none crimson;
+}
+.image{
+    background: url(../images/cake.jpeg) no-repeat center center;
+    background-size: 50px 50px;
+}

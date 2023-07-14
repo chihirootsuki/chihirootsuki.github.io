@@ -1,0 +1,15 @@
+.left{
+    float: left;
+    width: 50%;
+    background-color: lightblue;
+}
+.right{
+    float: right;
+    width: 40%;
+    background-color: lightgreen;
+}
+.clearfix::after{
+    content: "";
+    /* display: ; */
+    clear: both;
+}
